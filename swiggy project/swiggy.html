@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Swiggy-order foods online</title>
+    <style>
+        .main{
+            display: flex;
+            transition-delay: 0.1s;
+            
+        }
+        .first{
+            height: 600px;
+            width: 50%;
+            
+        }
+        .second{
+            height: 600px;
+            width: 50%;  
+        }
+        .second img{
+            height: 600px;
+            width: 100%;
+        }
+        .fifth{
+            margin: 0%;
+            padding: 0%;
+            padding-top: 50px;
+            padding-left: 120px;
+        }
+        .fifth a{
+            font-size: 30px;
+            color: black;
+            margin: 0%;
+            text-decoration: none;
+        }
+        .y{ font-size: 35px;
+            height: 75px;
+            width: 400px;
+            border: 5px solid red;
+            border-left: transparent;
+            border-bottom: transparent;
+            border-right: transparent;
+            border-top: transparent;
+            
+            animation-name: demo;
+            animation-duration:5s ;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            font-size: 40px;
+        }
+        
+        .z{
+            font-size: 30px;
+            
+        }
+       
+            
+
+
+        
+        .b{
+            font-size: 50px;
+            border-radius: 15px;
+            height: 75px;
+            width: 550px;
+            padding-top: 20px;
+            display: flex;
+        }
+        input{
+            height: 60px;
+            width: 400px;
+            border-radius: 10px;
+            font-size: 25px;
+            position: absolute;
+            
+        }
+        .anc{
+            position: relative;
+            padding-left: 355px;
+            padding-top: 20px;
+            
+            
+        }
+        .but{
+            height: 65px;
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 22.5px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+            
+            
+            
+        }
+        .d{
+            font-size: 20px;
+        }
+        .e{
+            font-size: 20px;
+            width: 550px;
+        }
+        .f{
+            list-style: none;
+            padding: 0%;
+            display: inline-block;
+            padding-right: 10px;
+            
+        }
+        .c{
+            padding-top:100px;
+        }
+        .g{
+            margin: 0%;
+            padding: 0%;
+        }
+        .third{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(44, 30, 30);
+            display: flex;
+            color: white;
+            transition: 0.8s;
+            
+            
+        }
+        .h img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .i img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .j img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        
+        .h{
+             
+             width: 33%;
+             padding-top: 50px;
+             font-size: 30px;
+        }
+        .h img{
+            height: 300px;
+            
+        }
+        .i{
+            
+             width: 33%;
+             padding-top: 50px;
+             font-size: 30px;
+        }
+        .i img{
+            height: 300px;
+            width: 450px;
+            
+        }
+       .j{
+        
+             width: 33%;
+             padding-top: 50px;
+             font-size: 30px;
+       }
+       .j img{
+            height: 300px;
+            width: 450px;
+            
+        }
+       .k{
+            font-size: 25px;
+        }
+        .fourth{
+            width: 100%;
+            height: 550px;
+            display: flex;
+        }
+        .l{
+            width: 30%;
+            font-size: 45px;
+            margin: 0%;
+            padding: 0%;
+            padding-top: 130px;
+            padding-left: 120px;
+            
+        }
+        .m{
+            width: 35%;
+        }
+        .n{
+            font-size: 22.5px;
+            opacity: 60%;
+        }
+        .o img{
+            height: 50px;
+            padding-top: 40px;
+        }
+        .p img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-left: 100px;
+        }
+        .q{
+            width: 35%;
+        }
+        .q img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-top: 50px;
+        }
+        .foot{
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            color: white;
+            display: flex;
+        }
+        .s{
+            width: 25%;
+        }
+        .t{
+            width: 25%;
+        }
+        .w{
+            width: 25%;
+        }
+        .x{
+            width: 25%;
+        }
+        .four{
+            font-size: 25px;
+        }
+        .five{
+            font-size: 25px;
+            list-style: none;
+        }
+        .six{
+            font-size: 25px;
+        }
+        .seven{
+            font-size: 25px;
+            list-style: none;
+        } 
+        .x img{
+            margin: 10px;
+            padding: 0%;
+            height: 50px;
+            padding-top: 5px;
+            margin-top: 40px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 100px;
+
+        }
+        .eleventh{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .thirteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .fourteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .p{
+            width: 50%;
+        }
+        @keyframes demo
+        {
+            0%
+            {
+                transform: scaleX(0%);
+
+            }
+            100%
+            {
+                transform: scaleX(100%);
+            }
+        }
+        @media (min-width:0px) and (max-width:376px){
+            .main{
+            display: inline-block;
+            }
+            .first{
+            height: 600px;
+            width: 50%;
+            display: inline;
+            }
+        .second{
+            height: auto;
+            width: 100%;
+            padding-top: 100px;
+        }
+        .second img{
+            height: 600px;
+            width: 100%;
+        }
+        .fifth{
+            margin: 0%;
+            padding: 0%;
+            padding-top: 50px;
+            padding-left: 125px;
+        }
+        .fifth a{
+            font-size: 30px;
+            color: black;
+            margin: 0%;
+            text-decoration: none;
+            display: inline;
+        }
+        .y{ font-size: 35px;
+            height: 75px;
+            width: 400px;
+            border: 5px solid red;
+            border-left: transparent;
+            border-bottom: transparent;
+            border-right: transparent;
+            border-top: transparent;
+            
+            animation-name: demo;
+            animation-duration:5s ;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            font-size: 40px;
+        }
+        
+        .z{
+            font-size: 30px;
+            
+        }
+        .d{
+            font-size: 20px;
+        }
+        .e{
+            font-size: 20px;
+            width: 550px;
+        }
+        .f{
+            list-style: none;
+            padding: 0%;
+            display: inline-block;
+            padding-right: 10px;
+            
+        }
+        .c{
+            padding-top:100px;
+        }
+        .g{
+            margin: 0%;
+            padding: 0%;
+        }
+        .anc{
+            position: relative;
+            padding-left: 355px;
+            padding-top: 20px;
+            
+            
+        }
+        .but{
+            height: 65px;
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 22.5px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            margin-top: 0px;    
+        }
+        .third{
+            width: 185%;
+            height: auto;
+            background-color: rgb(44, 30, 30);
+            display: inline-block;
+            color: white;
+            
+        }
+        .h img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .i img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .j img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        
+        .h{
+             
+             width: auto;
+             
+             font-size: 30px;
+             height: auto;
+        }
+        .h img{
+            height: 400px;
+            width: 100%;
+        }
+        .i{
+            
+             width: auto;
+             height: auto;
+             font-size: 30px;
+        }
+        .i img{
+            height: 400px;
+            width: 100%;
+            
+        }
+       .j{
+        
+             width:  auto;
+             height: auto;
+             font-size: 30px;
+       }
+       .j img{
+            height: 400px;
+            width: 100%;
+            
+        }
+        .k{
+            font-size: 30px;
+        }
+        .fourth{
+            width: 100%;
+            height: auto;
+            display: inline-block;
+        }
+        .l{
+            width: 100%;
+            font-size: 75px;
+            margin: 0%;
+            padding: 0%;
+            padding-top: 130px;
+            padding-left: 120px;
+            
+        }
+        .m{
+            width: 100%;
+           
+        }
+        .n{
+            font-size: 35px;
+            opacity: 60%;
+        }
+        .o img{
+            height: auto;
+            
+            width: 170px;
+            
+        }
+        .p{
+            width: 100%;
+        }
+        .p img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-left: 200px;
+            width: 100%;
+        }
+        .q{
+            width: 100%;
+        }
+        .q img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-top: 0px;
+            padding-left: 100px;
+        }
+        .foot{
+            width: 185%;
+            height: auto;
+            background-color: black;
+            color: white;
+            display: inline-block;
+        }
+        .s{
+            width: 100%;
+        }
+        .t{
+            width: 100%;
+        }
+        .w{
+            width: 100%;
+        }
+        .x{
+            width: 100%;
+        }
+        .four{
+            font-size: 25px;
+        }
+        .five{
+            font-size: 25px;
+            list-style: none;
+        }
+        .six{
+            font-size: 25px;
+        }
+        .seven{
+            font-size: 25px;
+            list-style: none;
+        } 
+        .x img{
+            margin: 10px;
+            padding: 0%;
+            height: 50px;
+            padding-top: 5px;
+            margin-top: 40px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 100px;
+
+        }
+        .eleventh{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .thirteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .fourteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        }
+        @media (min-width:377px) and (max-width:750px){
+            .main{
+            display: inline-block;
+            transition-delay: 0.1s;
+            
+        }
+        .first{
+            height: 600px;
+            width: 100%;
+            
+        }
+        .second{
+            height: 600px;
+            width: 100%;  
+        }
+        .second img{
+            height: 600px;
+            width: 100%;
+        }
+        .fifth{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            padding-top: 50px;
+            padding-left: 120px;
+        }
+        .fifth a{
+            font-size: 30px;
+            color: black;
+            margin: 0%;
+            text-decoration: none;
+        }
+        .y{ font-size: 35px;
+            height: 75px;
+            width: 400px;
+            border: 5px solid red;
+            border-left: transparent;
+            border-bottom: transparent;
+            border-right: transparent;
+            border-top: transparent;
+            
+            animation-name: demo;
+            animation-duration:5s ;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            font-size: 40px;
+        }
+        
+        .z{
+            font-size: 30px;
+            
+        }
+       
+            
+
+
+        
+        .b{
+            font-size: 50px;
+            border-radius: 15px;
+            height: 75px;
+            width: 550px;
+            padding-top: 20px;
+            display: flex;
+        }
+        input{
+            height: 60px;
+            width: 400px;
+            border-radius: 10px;
+            font-size: 25px;
+            position: absolute;
+            
+        }
+        .anc{
+            position: relative;
+            padding-left: 355px;
+            padding-top: 20px;
+            
+            
+        }
+        .but{
+            height: 65px;
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 22.5px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+            
+            
+            
+        }
+        .d{
+            font-size: 20px;
+        }
+        .e{
+            font-size: 20px;
+            width: 550px;
+        }
+        .f{
+            list-style: none;
+            padding: 0%;
+            display: inline-block;
+            padding-right: 10px;
+            
+        }
+        .c{
+            padding-top:100px;
+        }
+        .third{
+            width: 100%;
+            height: auto;
+            background-color: rgb(44, 30, 30);
+            display: inline-block;
+            color: white;
+            
+        }
+        .h img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .i img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .j img:hover{
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        
+        .h{
+             
+             width: auto;
+             
+             font-size: 30px;
+             height: auto;
+        }
+        .h img{
+            height: 400px;
+            width: 100%;
+        }
+        .i{
+            
+             width: auto;
+             height: auto;
+             font-size: 30px;
+        }
+        .i img{
+            height: 400px;
+            width: 100%;
+            
+        }
+       .j{
+        
+             width:  auto;
+             height: auto;
+             font-size: 30px;
+       }
+       .j img{
+            height: 400px;
+            width: 100%;
+            
+        }
+        .k{
+            font-size: 30px;
+        }
+        .fourth{
+            width: 100%;
+            height: auto;
+            display: inline-block;
+        }
+        .l{
+            width: 100%;
+            font-size: 75px;
+            margin: 0%;
+            padding: 0%;
+            padding-top: 130px;
+            padding-left: 120px;
+            
+        }
+        .m{
+            width: 100%;
+           
+        }
+        .n{
+            font-size: 35px;
+            opacity: 60%;
+        }
+        .o img{
+            height: auto;
+            
+            width: 170px;
+            
+        }
+        .p{
+            width: 100%;
+        }
+        .p img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-left: 200px;
+            
+            width: auto;
+        }
+        .q{
+            width: 100%;
+        }
+        .q img{
+            margin: 0%;
+            padding: 0%;
+            height: 500px;
+            padding-top: 0px;
+            padding-left: 100px;
+        }
+        .foot{
+            width: 185%;
+            height: auto;
+            background-color: black;
+            color: white;
+            display: inline-block;
+        }
+        .s{
+            width: 100%;
+        }
+        .t{
+            width: 100%;
+        }
+        .w{
+            width: 100%;
+        }
+        .x{
+            width: 100%;
+        }
+        .four{
+            font-size: 25px;
+        }
+        .five{
+            font-size: 25px;
+            list-style: none;
+        }
+        .six{
+            font-size: 25px;
+        }
+        .seven{
+            font-size: 25px;
+            list-style: none;
+        } 
+        .x img{
+            margin: 10px;
+            padding: 0%;
+            height: 50px;
+            padding-top: 5px;
+            margin-top: 40px;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-left: 100px;
+
+        }
+        .eleventh{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .thirteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        .fourteen{
+            margin-top: 10px;
+            list-style: none;
+            opacity: 50%;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="first">
+            <div class="fifth"><b style="font-size: 50px;letter-spacing: 5px;color: orange;">swiggy</b>
+                    <a href="#" style="padding-left: 150px;">login</a>
+                    <a href="#" style="padding-left: 40px;">sign up</a>
+                    <div class="c">
+                          <div class="y"><b>unexpected guest?</b></div>
+                          <div class="z">order food from your favourite restaurant near you</div>  
+                    </div>
+                          
+                    <div class="b">
+                        <input type="search-box" name="" id="" value="" placeholder="Enter nearby resturant">
+                        <a href="#" style="position: relative;" class="anc"><i class="fa-solid fa-location-crosshairs"></i></a>
+                        <button class="but">FIND FOODS</button>
+
+                    </div>
+                    <div class="d">
+                       <p>Popular cities in india</p>
+                    </div>
+                    <div class="e">
+                        <ul class="g">
+                            <li class="f"><b>Ahmedabad</b></li>
+                            <li class="f">banglore</li>
+                            <li class="f"><b>chennai</b></li>
+                            <li class="f">Delhi</li>
+                            <li class="f"><b>Gurgoan</b></li>
+                            <li class="f">Hyderabad</li>
+                            <li class="f"><b>kolkata</b></li>
+                            <li class="f">Mumbai</li>
+                            <li class="f"><b>pune</b></li>
+                            <li class="f">& more</li>
+                        </ul>    
+                    </div>
+            </div>
+            
+             
+        </div>
+        <div class="second"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq" alt=""></div>
+        
+    </div>
+    <div class="third">
+        <div class="h" align="center">
+            <img src="5227.jpg" alt="">
+            <div><b>No minimum orders</b></div>
+            <div class="k">order in for yourself or for the group with no restriction on order value</div>
+        </div>
+        <div class="i" align="center">
+            <img src="2202.q804.002.S.m012.c10.delivery courier service flat composition.jpg" alt="">
+            <div><b>live order tracking</b></div>
+            <div class="k">view where your order is at that time from restaurantto your doorstep</div>
+            
+        </div>
+        <div class="j" align="center">
+            <img src="142.jpg" alt="">
+            <div><b>Ligthining fast delivery</b></div>
+            <div class="k">expirence swiggy superfast delivery for food delivered fresh and on time</div>
+            
+        </div>
+    </div>
+    <div class="fourth">
+        <div class="l">
+              <div><b>Resturant in your pocket</b></div>
+               <div class="n"><p>Order from your favourite restaurant track on the go with all new swiggy app</p></div>
+               <div class="o">
+                 <img src="	https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty" alt="">
+                 <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp" alt="">
+               </div>
+        </div>
+        <div class="m">
+            <div class="p">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n" alt="">
+            </div>
+        </div>
+        <div class="q">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn" alt="">
+
+        </div>
+    </div>
+    <hr>
+    <footer class="foot">
+        <div class="s">
+            <ul class="four">
+                <li class="eleventh">company</li>
+                <li class="five">about</li>
+                <li class="five">teams carrer</li>
+                <li class="five">swiggy one</li>
+                <li class="five">swiggy blog</li>
+                <li class="five">carrers</li>
+                <li class="five">bug bonty</li>
+                <li class="five">swiggy corporates</li>
+                <li class="five">swiggy instamart</li>
+            </ul>
+        </div>
+        <div class="t"><ul class="six"><li class="fourteen">legal</li>
+            <li class="seven">terms and condition</li>
+            <li class="seven">privacy</li>
+            <li class="seven">policy</li>
+            <li class="seven">cookie policy</li>
+            <li class="seven">carrers</li>
+            <li class="seven">offers</li>
+           
+        </ul></div>
+        <div class="w"><ul class="six"><li class="thirteen">contact</li>
+            <li class="seven">help and support</li>
+            <li class="seven">partner with us</li>
+            <li class="seven">ride with us</li>
+            
+           
+        </ul></div>
+        <div class="x">
+            <img src="	https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty" alt="">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp" alt="">
+        </div>
+    </footer>
+    
+</body>
+</html>
